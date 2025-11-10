@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autismo en México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Autismo en México</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#estadisticas">Estadísticas</a></li>
+                <li><a href="#apoyo">Centros de Apoyo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1500&q=80" alt="Niño con colores">
+        <div class="hero-text">
+            <h2>Concientización y Apoyo</h2>
+            <p>El autismo afecta a miles de familias en México. Conocer más es el primer paso para construir una sociedad más inclusiva.</p>
+            <button onclick="scrollToSection('estadisticas')">Saber más</button>
+        </div>
+    </section>
+
+    <section id="estadisticas">
+        <h2>Estadísticas en México</h2>
+        <p>De acuerdo con la Secretaría de Salud, se estima que 1 de cada 115 niñas y niños en México presenta algún trastorno del espectro autista (TEA). Sin embargo, aún existe un gran subregistro.</p>
+        <img src="https://images.unsplash.com/photo-1581091215367-59ab6c46d7e9?auto=format&fit=crop&w=1200&q=80" alt="Gráfico representativo">
+    </section>
+
+    <section id="apoyo">
+        <h2>Centros de Apoyo y Recursos</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80" alt="Centro educativo">
+                <h3>Asociación Autismo México</h3>
+                <p>Brinda orientación, terapias y acompañamiento a familias.</p>
+                <a href="https://autismomexico.org" target="_blank">Visitar sitio</a>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80" alt="Apoyo familiar">
+                <h3>Fundación Teletón</h3>
+                <p>Cuenta con unidades especializadas para la atención del TEA.</p>
+                <a href="https://teleton.org" target="_blank">Más información</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <h3>Contacto</h3>
+        <p>Si deseas más información o colaborar, envíanos un mensaje.</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <textarea placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="copy">&copy; 2025 Autismo en México | Diseñado con 💛 y 💗</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
